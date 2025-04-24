@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #0a0a0a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4fa3f7; /* Azul */
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #4fa3f7;
+}
+
+.hero {
+  background: url('https://st2.depositphotos.com/4105587/43812/i/450/depositphotos_438129736-stock-photo-office-meeting-blur-background-business.jpg') no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #004d6e; /* Azul escuro */
+}
+
+.hero h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-content {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.servicos {
+  padding: 60px 0;
+  background-color: #0a0a0a;
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color:linear-gradient(to right, #0a0f2c, #1e2a78);
+
+
+  color: #00b4ff; /* Azul destaque */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Azul */
+  border: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  width: 50%;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #4fa3f7; /* Azul */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.liquigas {
+  background: linear-gradient(to right, #011405, #086934); /* Azul escuro */
+  color: #00b4ff; /* Azul destaque */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 100px 0;
+}
+
+.liquigas h2 {
+  font-size: 50px;
+  margin-bottom: 100px;
+  margin-left: 620px;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  
+}
+
+.produtos img {
+  width: 400px;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+  
+}
+
+.produtos img:hover {
+  transform: scale(1.1);
+}
+
+.contato {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #0a0a0a;
+}
+
+.contato h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #4fa3f7; /* Azul */
+}
+
+.botoes a {
+  display: inline-block;
+  background-color: #4fa3f7; /* Azul */
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.botoes a:hover {
+  background-color: #003b5c; /* Azul escuro */
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.instt {
+  width: 45px; /* menor que antes */
+  height: 45px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+  background-color: #0d1117;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+}
+
+.instt:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 123, 255, 0.5);
+  background-color: #0a84ff;
+}
+
+.dsc{
+
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+}
+
+.quem-somos {
+  background: linear-gradient(to right, #0a0f2c, #1e2a78); /* azul escuro estilizado */
+  color: #fff;
+  padding: 200px 20px;
+}
+
+.quem-somos .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quem-somos .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.quem-somos .text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00b4ff; /* Azul destaque */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dsch3{
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.titleh3{
+
+    font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00b4ff; /* Azul destaque */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dsc {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.quem-somos .image {
+  flex: 5;
+  min-width: 700px;
+  text-align:right;
+
+}
+
+.quem-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.quem-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .quem-somos .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .dsc {
+    font-size: 1rem;
+  }
+}
